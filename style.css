@@ -24,6 +24,7 @@ body {
     margin-bottom: 50px;
     color: #a19f9f;
     font-size: 20px;
+    cursor: default;
 }
 
 .big-title {
@@ -31,6 +32,7 @@ body {
     margin-bottom: 10px;
     font-size: 80px;
     font-weight: 1000;
+    cursor: default;
 }
 
 .medium-title {
@@ -39,6 +41,12 @@ body {
     font-weight: 800;
     text-decoration: underline;
     text-decoration-color: #ffe1a8;
+    transition: text-decoration 0.3s ease;
+    cursor: default;
+}
+
+.medium-title:hover {
+    text-decoration: none;
 }
 
 .small-title {
@@ -47,6 +55,12 @@ body {
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: #ffe1a8;
+    transition: text-decoration 0.3s ease;
+    cursor: default;
+}
+
+.small-title:hover {
+    text-decoration: none;
 }
 
 p {
